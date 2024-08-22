@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "ES2022",
+    "baseUrl": "./src",
+    "target": "ES2016",
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "outDir": "./dist/types",
+    "jsx": "react-jsx",
+    "skipLibCheck": true,
+    "pretty": true
+  },
+  "exclude": ["node_modules", "clients", "./src/package.publish.ts", ".vscode", "./src/**/Locals"],
+  "include": ["src"],
+}

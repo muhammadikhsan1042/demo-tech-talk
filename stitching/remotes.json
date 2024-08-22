@@ -1,0 +1,4 @@
+{
+    "@demo/content": "demo_content@http://localhost:9001/remoteModule.js",
+    "@demo/statistic": "demo_statistic@http://localhost:9002/remoteModule.js"
+}
